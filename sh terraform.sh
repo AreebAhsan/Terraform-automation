@@ -4,3 +4,7 @@ cd terraform-jenkins-project
 terraform init
 terraform plan
 terraform apply --auto-approve
+
+sleep 200
+
+terraform apply --auto-approve
